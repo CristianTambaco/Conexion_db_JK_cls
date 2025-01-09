@@ -51,11 +51,11 @@
       </component>
       <component id="22cf3" class="javax.swing.JLabel" binding="lblTransaccion">
         <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Cooper Black" size="28"/>
-          <text value="Transacción a realizar"/>
+          <text value="Menú"/>
         </properties>
       </component>
       <vspacer id="d981b">

@@ -39,6 +39,7 @@ public class form3 extends  JFrame{
         frame.setPreferredSize(new Dimension(800,600));    //seteo del tamaño preferido
         frame.pack();
         frame.setVisible(true);   //para visualizar una nueva ventana
+        frame.setLocationRelativeTo(null); // Centra la ventana en la pantalla
 
     }
 

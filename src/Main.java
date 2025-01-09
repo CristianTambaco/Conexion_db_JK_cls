@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 public class Main {
     public static void main(String[] args) throws SQLException {
 
-        String url="jdbc:mysql://localhost:3306/concurso";
+        String url="jdbc:mysql://localhost:3307/concurso";
         String user="root";
         String password="123456";
 
@@ -28,10 +28,10 @@ public class Main {
             while(resultSet.next()){
                 int id=resultSet.getInt("id");
                 String nombre=resultSet.getNString("Nombre");
-                String apellido=resultSet.getNString("Apellido");
+                String correo=resultSet.getNString("Correo");
                 String passwordusuario=resultSet.getNString("Pass");
 
-                System.out.println(" id: " + id + ", Nombre: " + nombre + ", Apellido: " + apellido + ", password: "+passwordusuario);
+                System.out.println(" id: " + id + ", Nombre: " + nombre + ", Correo: " + correo + ", password: "+passwordusuario);
 
 
             }
@@ -55,7 +55,7 @@ public class Main {
             frame.setPreferredSize(new Dimension(800,600));    //seteo del tamaño preferido
             frame.pack();
             frame.setVisible(true);   //para visualizar una nueva ventana
-
+            frame.setLocationRelativeTo(null); // Centra la ventana en la pantalla
 
 
 
