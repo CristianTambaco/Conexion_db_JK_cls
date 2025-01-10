@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 public class form2 extends  JFrame {
     private JButton btnVerSaldo;
     private JButton btnRetiro;
-    private JButton btnDeposito;
     public JPanel mainPanel2;
     private JButton btnSalir;
     private JLabel lblTransaccion;
@@ -52,16 +51,7 @@ public class form2 extends  JFrame {
 
             }
         });
-        btnDeposito.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
 
-                form6 fords = new form6();
-                fords.iniciarDeposito();
-
-
-            }
-        });
     }
 
     public void iniciarMenu() {

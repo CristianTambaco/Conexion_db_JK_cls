@@ -15,7 +15,7 @@ public class form1 extends JFrame {
     private JButton loginButton;
     private JLabel mensajeLabel;
 
-    // Método para validar el login con la base de datos
+    // Metodo para validar el login con la base de datos
     private void validarLogin() {
         // Obtener los valores ingresados
         String usuario = usuarioTextField.getText();

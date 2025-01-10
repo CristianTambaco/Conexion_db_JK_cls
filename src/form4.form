@@ -14,7 +14,7 @@
         </constraints>
         <properties>
           <font name="Cooper Black" size="28"/>
-          <text value="Saldo"/>
+          <text value="Gestión de Datos"/>
         </properties>
       </component>
       <vspacer id="8c022">
@@ -28,16 +28,7 @@
         </constraints>
         <properties>
           <font size="20"/>
-          <text value="Menú"/>
-        </properties>
-      </component>
-      <component id="9a5f8" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font size="36"/>
-          <text value="Saldo: 200"/>
+          <text value="Cargar Datos"/>
         </properties>
       </component>
       <vspacer id="4dd44">
@@ -60,6 +51,14 @@
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
+      <component id="e6af9" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
     </children>
   </grid>
 </form>

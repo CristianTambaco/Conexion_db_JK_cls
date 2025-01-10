@@ -14,7 +14,7 @@
         </constraints>
         <properties>
           <font name="Cooper Black" size="28"/>
-          <text value="Depósito"/>
+          <text value="Menú"/>
         </properties>
       </component>
       <vspacer id="4182b">
